@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bg-grey {
+    background: #b4b4b4;
+}
+
+.bg-white {
+    background: white;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+h2::before, h2::after {
+    content: " || ";
+    color: brown;
+    font-size: 20px;
+}
+
+h3 {
+    color: brown;
+    font-size: 15px;
+}
+
+hr {
+    width: 150px;
+    border-color: brown;
+}
+
+.pre {
+    font-weight: bold;
+    color: brown;
+}
+
+/* Header */
+.header {
+    background: url("../img/header-bg.jpg") no-repeat fixed bottom;
+    background-size: cover;
+    padding: 100px 125px;
+    text-align: center;
+    color: black;
+}
+
+.header h1 {
+    padding 25px;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 6px #000000; 
+}
+
+.header p {
+    padding: 25px;
+    font-size: 20px;
+}
+
+/* About */
+.about {
+   padding: 50px 125px; 
+}
+
+/* Portofolio */
+.porto {
+    padding: 50px 125px;
+}
+
+/* Contact */
+.contact {
+    padding: 50px 125px;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact a:hover {
+    
+}
