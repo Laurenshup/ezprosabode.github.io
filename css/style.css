@@ -1,88 +1,87 @@
 body {
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 70px !important;
+}
+
+.jumbotron {
+    background: #1f8e3d;
+    color: white;
+    height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
 }
 
-.bg-grey {
-    background: #b4b4b4;
+/* Navigation */
+.navbar-default {
+    background: #000;
+    width: 80px;
+    height: 100vh;
+    float: right;
+    border: 0px none;
+    border-radius: 0px;
+    position: fixed;
 }
 
-.bg-white {
-    background: white;
+.navbar-nav {
+    font-size: 40px;
+    margin-left: 15px;
 }
 
-h2 {
+.navbar-nav li {
+    width: 80px;
     text-align: center;
-    text-transform: uppercase;
-    font-size: 20px;
 }
 
-h2::before, h2::after {
-    content: " || ";
-    color: brown;
-    font-size: 20px;
+.navbar-nav a {
+    background: #000;
+    color: white !important;
+    transition: .4s background;
 }
 
-h3 {
-    color: brown;
-    font-size: 15px;
+.navbar-nav .home-logo a:hover {
+    background: #d32b2b !important;
 }
 
-hr {
-    width: 150px;
-    border-color: brown;
+.navbar-nav .about-logo a:hover {
+    background: #ed8115 !important;
 }
 
-.pre {
-    font-weight: bold;
-    color: brown;
+.navbar-nav .porto-logo a:hover {
+    background: #edcc15 !important;
+}
+
+.navbar-nav .game-logo a:hover {
+    background: #1ca340 !important;
+}
+
+.navbar-nav .web-logo a:hover {
+    background: #159aed !important;
 }
 
 /* Header */
-.header {
-    background: url("../img/header-bg.jpg") no-repeat fixed bottom;
-    background-size: cover;
-    padding: 100px 125px;
-    text-align: center;
-    color: black;
-}
-
-.header h1 {
-    padding 25px;
-    font-size: 60px;
-    text-transform: uppercase;
-    text-shadow: 2px 1px 6px #000000; 
-}
-
-.header p {
-    padding: 25px;
-    font-size: 20px;
+.home {
+    background: #d32b2b;
 }
 
 /* About */
 .about {
-   padding: 50px 125px; 
+    background: #ed8115;
 }
 
 /* Portofolio */
 .porto {
-    padding: 50px 125px;
+    background: #edcc15;
 }
 
-/* Contact */
-.contact {
-    padding: 50px 125px;
+/* Game */
+.game {
+    background: #1ca340;
 }
 
-.contact ul {
-    list-style: none;
-}
-
-.contact a {
-    text-decoration: none;
-    color: black;
-}
-
-.contact a:hover {
-    
+/* Web */
+.web {
+    background: #159aed;
 }
