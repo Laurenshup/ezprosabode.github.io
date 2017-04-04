@@ -1,15 +1,18 @@
 body {
     overflow-x: hidden;
-    overflow: hidden;
+    position: relative;
 }
 
 h1 {
     font-size: 70px !important;
 }
 
+.text {
+    margin-left: 100px;
+}
+
 .jumbotron {
-    background: #1f8e3d;
-    color: white;
+    color: black;
     height: 100vh;
     margin: 0;
 }
@@ -23,6 +26,7 @@ h1 {
     border: 0px none;
     border-radius: 0px;
     position: fixed;
+    box-shadow: 2px solid #000;
 }
 
 .navbar-nav {
@@ -37,28 +41,35 @@ h1 {
 
 .navbar-nav a {
     background: #000;
+    width: 80px;
     color: white !important;
     transition: .4s background;
+    transition: .3s width;
 }
 
 .navbar-nav .home-logo a:hover {
     background: #d32b2b !important;
+    width: 120px;
 }
 
 .navbar-nav .about-logo a:hover {
     background: #ed8115 !important;
+    width: 120px;
 }
 
 .navbar-nav .porto-logo a:hover {
     background: #edcc15 !important;
+    width: 120px;
 }
 
 .navbar-nav .game-logo a:hover {
     background: #1ca340 !important;
+    width: 120px;
 }
 
 .navbar-nav .web-logo a:hover {
     background: #159aed !important;
+    width: 120px;
 }
 
 /* Header */
