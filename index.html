@@ -16,16 +16,23 @@
             <h1 class="test">Ezpros Abode</h1>
         </div>
         <div class="container">
-            <h2>test</h2><br>
+            <h2>Managing For The Code</h2><br>
             
-            <div class="form-horizontal">
+            <div class="col-lg-6">
                 <div class="form-group">
-                    <label class="control-label col-lg-2">The Code:</label>
-                    <div class="col-sm-8">
-                        <textarea class="form-control" rows="3" placeholder="Enter code..."></textarea>
-                    </div>
+                    <label class="control-label">The Code:</label>
+                    <input type="text" class="form-control" id="get_text" placeholder="Enter code...">
+                    <br>
+                    <button type="button" class="btn btn-success" onclick="text()" id="submit">Submit</button>
                 </div>
             </div>
+            
+            <div class="col-lg-6">
+                <p id="output"></p>
+            </div>
+            
         </div>
+        
+        <script src="js/text.js"></script>
     </body>
 </html>
