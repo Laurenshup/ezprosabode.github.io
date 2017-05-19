@@ -339,15 +339,15 @@ ul.social > li > a i {
 	height: 75px;
 	border-radius: 0 0 5px 5px;
 }
-#footer {
+.fill {
   padding-top: 30px;
   padding-bottom: 30px;
   color: #999;
 }
-#footer a {
+.fill a {
   color: #999;
 }
-#footer a:hover {
+.fill a:hover {
   color: #2c9924;
 }
 .call-to-action h2 {
