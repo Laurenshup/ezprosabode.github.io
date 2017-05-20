@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 html,
 body {
   height: 100%;
@@ -335,19 +330,20 @@ ul.social > li > a i {
 }
 .fill {
 	background: #2c9924;
+	margin-bottom: 30px;
 	width: 100%;
 	height: 75px;
 	border-radius: 0 0 5px 5px;
 }
-.fill {
+#footer {
   padding-top: 30px;
   padding-bottom: 30px;
   color: #999;
 }
-.fill a {
+#footer a {
   color: #999;
 }
-.fill a:hover {
+#footer a:hover {
   color: #2c9924;
 }
 .call-to-action h2 {
