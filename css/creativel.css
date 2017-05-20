@@ -4,3 +4,17 @@
 .header-content {
   margin: 5px 15px 50px;
 }
+.header-content-inner p {
+  text-transform: uppercase;
+}
+.fill {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #ddd;
+}
+.fill a {
+  color: #ddd;
+}
+.fill a:hover {
+  color: #999;
+}
