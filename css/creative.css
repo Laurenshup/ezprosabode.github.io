@@ -3,6 +3,7 @@ body {
   height: 100%;
   width: 100%;
   background: #dedede;
+  overflow-x: hidden;
 }
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
