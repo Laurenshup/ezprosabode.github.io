@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden; 
+}
 .top-offset {
   margin-top: -215px;
 }
